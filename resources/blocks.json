@@ -1,0 +1,65 @@
+{
+    "Grass_Top": {
+        "texture": "resources/Textures/grass_top.jpeg",
+        "group": "Grass",
+        "id": 0,
+        "transparent": false,
+        "isFoliage": false
+    },
+    "Dirt_Top": {
+        "texture": "resources/Textures/minecraft_dirt.jpeg",
+        "id": 1,
+        "group": "Dirt",
+        "transparent": false,
+        "isFoliage": false
+    },
+    "Stone_Block": {
+        "texture": "resources/Textures/stone.png",
+        "id": 2,
+        "group": "Stone",
+        "transparent": false,
+        "isFoliage": false
+    },
+    "Oak_Log": {
+        "texture": "resources/Textures/oak_log.jpeg",
+        "id": 3,
+        "group": "Log",
+        "transparent": false,
+        "isFoliage": false
+    },
+    "Oak_Leaves": {
+        "texture": "resources/Textures/leaves.png",
+        "id": 4,
+        "group": "Leaves",
+        "transparent": true,
+        "isFoliage": true
+    },
+    "Water": {
+        "texture": "resources/Textures/water.png",
+        "id": 5,
+        "group": "Water",
+        "transparent": true,
+        "isFoliage": false
+    },
+    "Sand_Block": {
+        "texture": "resources/Textures/sand.png",
+        "id": 6,
+        "group": "Sand",
+        "transparent": false,
+        "isFoliage": false
+    },
+    "Snow_Block": {
+        "texture": "resources/Textures/snow.jpeg",
+        "id": 7,
+        "group": "Snow",
+        "transparent": false,
+        "isFoliage": false
+    },
+    "Ice_Block": {
+        "texture": "resources/Textures/ice.png",
+        "id": 8,
+        "group": "Snow",
+        "transparent": true,
+        "isFoliage": false
+    }
+}
