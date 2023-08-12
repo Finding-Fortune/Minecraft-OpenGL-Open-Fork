@@ -8,6 +8,17 @@
 #include <initializer_list>
 #include <utility> // std::pair
 
+/** Pack one uint somewhere in another.
+ * The function that does the actual packing for pack_data.
+ * @param data the data to be packed.
+ * @param pos offset in the output where to put the data, right-to-left from 0.
+ * @param size the amount of bits from the data to use.
+ * @return partially packed data, logical or with other data to stitch them together.
+ */
+const unsigned int pack_uint(const unsigned int &data, const char pos, const char size) {
+    return (data & ((1 << size) - 1)) << pos;
+}
+
 /**
  * Helper type definition.
  */
@@ -27,9 +38,6 @@ typedef std::pair<const unsigned int, char> packing_var;
  * @return packed data as an unsigned int.
  */
 const unsigned int pack_data(std::initializer_list<packing_var> var_list) {
-    const unsigned int pack_uint(const unsigned int &data, const char pos, const char size) {
-        return (data & ((1 << size) - 1)) << pos;
-    }
     unsigned int value = 0;
     char pos = 0;
     for (auto item : var_list) {
