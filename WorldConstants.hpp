@@ -14,12 +14,12 @@ namespace World
                                            // Its a power of 2, as they do not have binary imprecision
 
     /* Chunk Settings */
-    const GLuint chunkSize     = 64;
+    const GLuint chunkSize     = 32;
     const GLuint chunkWidthX   = chunkSize;  // How many blocks wide a chunk is
     const GLuint chunkHeightY  = chunkSize;  // How many blocks tall a chunk is
     const GLuint chunkDepthZ   = chunkSize;  // How many blocks deep a chunk is
     const GLuint chunkVolume   = chunkWidthX * chunkHeightY * chunkDepthZ; // How many blocks a chunk is
-    const GLuint chunkDiameter = 0;  // The amount of chunks generated across. Basically the render distance
+    const GLuint chunkDiameter = 5;  // The amount of chunks generated across. Basically the render distance
                                      // If 0 then 1 chunks generate, If 1 then 9 chunks generate (3x3), if 2 then 25 chunks generate (5x5), etc
     const GLfloat BlockRenderDistance = 10 * chunkSize * blockSize; // Will render chunks within n blocks
 
