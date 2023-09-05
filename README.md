@@ -15,7 +15,7 @@ Overall, you need these installed:
 - type ./app in terminal to run the compiled code
 
 #### Any Questions ~ 
-Feel free to ask me on youtube! https://www.youtube.com/@Finding_Fortune/videos
+Feel free to ask me [on youtube](https://www.youtube.com/@Finding_Fortune/videos)! My Discord is also in the description for all videos
 
 ### Resources
 - Check the misc folder for examples on how to do [vertex compression](https://www.youtube.com/watch?v=d10MOYtNXB4) 
