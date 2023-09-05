@@ -20,7 +20,7 @@ out float AmbientOcclusionIntensity;
 out float FogIntensity;
 
 // Fog variables
-const float fogDensity = 0.004;
+const float fogDensity = 0.001;
 const float fogGradient = 4.0;
 
 // Imports the camera matrix from the main function

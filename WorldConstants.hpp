@@ -19,9 +19,9 @@ namespace World
     const GLuint chunkHeightY  = chunkSize;  // How many blocks tall a chunk is
     const GLuint chunkDepthZ   = chunkSize;  // How many blocks deep a chunk is
     const GLuint chunkVolume   = chunkWidthX * chunkHeightY * chunkDepthZ; // How many blocks a chunk is
-    const GLuint chunkDiameter = 5;  // The amount of chunks generated across. Basically the render distance
+    const GLuint chunkDiameter = 12;  // The amount of chunks generated across. Basically the render distance
                                      // If 0 then 1 chunks generate, If 1 then 9 chunks generate (3x3), if 2 then 25 chunks generate (5x5), etc
-    const GLfloat BlockRenderDistance = 10 * chunkSize * blockSize; // Will render chunks within n blocks
+    const GLfloat BlockRenderDistance = 40 * chunkSize * blockSize; // Will render chunks within n blocks
 
     /* World Settings */
     const GLuint chunksTall     = 1;     // How many chunks tall we generate the world / world height limit
